@@ -1,0 +1,56 @@
+.efgh{
+  display: flex;
+  flex-wrap: wrap;
+}
+#a{
+  height: 75px;
+  line-height: 75px;
+}
+#b{
+  height: 150px;
+  line-height: 150px;
+}
+#c, #d{
+  height: 125px;
+  line-height: 125px;
+}
+#e, #f, #g, #h{
+  flex-shrink: 0;
+  height: 250px;
+  line-height: 250px;
+  width: 240px;
+}
+#i{
+  height: 80px;
+  line-height: 80px;
+}
+@media only screen and (min-width:500px){
+  #a{
+    height: 100px;
+    line-height: 100px;
+  }
+  #b{
+    float: left;
+    height: 600px;
+    line-height: 600px;
+    width: 200px;
+  }
+  .cd{
+    display: flex;
+  }
+  #c, #d{
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+  }
+  #e, #f, #g, #h{
+    flex-shrink: 0;
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+  }
+  #i{
+    height: 150px;
+    line-height: 150px;
+  }
+}
