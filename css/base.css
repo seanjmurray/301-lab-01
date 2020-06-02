@@ -1,0 +1,7 @@
+
+header, main, footer{
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  width: 480px;
+}
